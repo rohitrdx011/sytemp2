@@ -1,0 +1,54 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-inline: auto;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  line-height: 37px;
+  text-align: center;
+  color: black !important;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.MainContainer img {
+  width: 8rem;
+  height: 5rem;
+}
+.mainContainerHeader1 {
+  color: #000;
+  margin-block: 22px;
+}
+.mainConatinerHeader2 {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.mainCOnatinerpara {
+  font-weight: 700;
+  color: black;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+.numberCLickHere {
+  text-decoration: none;
+}
+.numberCLickHereSpan {
+  text-transform: capitalize;
+  color: #26a691;
+  font-weight: 800;
+}
+
+.ancherTagMainCOnatiner {
+  text-decoration: none;
+  font-weight: 700;
+}
